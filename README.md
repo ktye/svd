@@ -1,6 +1,14 @@
 # svd
 singular value decomposition for complex matrices
 
+[![GoDoc](https://godoc.org/github.com/ktye/svd?status.svg)](https://godoc.org/github.com/ktye/svd)
+
+The package implements the singular value decomposition (SVD) for general complex matrices in the go programming language.
+It has been adapted from the Fortran source referenced below.
+
+Besides the decomposition itself, it can be used to compute the condition of a matrix.
+
+The package is self-contained and uses only the standard library.
 
 ## Algorithm
 Toms358
